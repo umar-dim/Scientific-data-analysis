@@ -71,6 +71,181 @@
     - Chicago Lawn (Marquette Park)
     - Ashburn
     - Clearing
+- all the neighbourhood from the dataframe 
+  - Lake View
+  - West Ridge
+  - Little Village
+  - Logan Square
+  - Lincoln Park
+  - South Austin
+  - Irving Park
+  - Rogers Park
+  - Uptown
+  - Gresham
+  - Portage Park
+  - South Loop
+  - Brighton Park
+  - Albany Park
+  - Jefferson Park
+  - South Shore
+  - Bridgeport
+  - Edgewater
+  - Cragin
+  - Humboldt Park
+  - Englewood
+  - Avondale
+  - Lawndale
+  - Gage Park
+  - Back of the Yards
+  - West Lawn
+  - Bronzeville
+  - Marquette Park
+  - Belmont Central
+  - Garfield Ridge
+  - South Chicago
+  - Ravenswood
+  - Hyde Park
+  - West Pullman
+  - West Town
+  - Near North
+  - North Austin
+  - East Side
+  - Streeterville
+  - Hermosa
+  - West Englewood
+  - East Garfield Park
+  - Bucktown
+  - North Center
+  - Clearing
+  - Chatham
+  - West Elsdon
+  - Heart of Chicago
+  - Mount Greenwood
+  - Roseland
+  - Montclare
+  - West Humboldt Park
+  - Archer Heights
+  - Scottsdale
+  - Morgan Park
+  - University Village - Little Italy
+  - O'Hare
+  - Near West Side
+  - Chicago Lawn
+  - Gold Coast
+  - Ashburn
+  - Park Manor
+  - Belmont Heights
+  - West Garfield Park
+  - The Loop
+  - Woodlawn
+  - McKinley Park
+  - Beverly
+  - Galewood
+  - River North
+  - Norwood Park East
+  - Wicker Park
+  - Brainerd
+  - Old Town
+  - Pilsen
+  - Grand Crossing
+  - Edison Park
+  - Roscoe Village
+  - Calumet Heights
+  - Belmont Gardens
+  - Budlong Woods
+  - Washington Park
+  - Burnside
+  - Wrightwood
+  - Longwood Manor
+  - Rosemoor
+  - Noble Square
+  - Fernwood
+  - North Park
+  - East Ukrainian Village
+  - West Loop Gate
+  - Norwood Park West
+  - Sauganash
+  - Dunning
+  - East Chatham
+  - Andersonville
+  - Kenwood
+  - New Eastside
+  - Schorsch Village
+  - West Woodlawn
+  - Hollywood Park
+  - Ukrainian Village
+  - Hegewisch
+  - Arcadia Terrace
+  - Fulton River District
+  - South Deering
+  - Lincoln Square
+  - Washington Heights
+  - Big Oaks
+  - Goose Island
+  - Canaryville
+  - Irving Woods
+  - Union Ridge
+  - Edgebrook
+  - West Chatham
+  - North Kenwood
+  - Homan Square
+  - Kelvin Park
+  - West Chesterfield
+  - Wildwood
+  - Oriole Park
+  - Douglas Park
+  - Jeffery Manor
+  - East Beverly
+  - Tri-Taylor
+  - Bowmanville
+  - Wrigleyville
+  - West Beverly
+  - Oakland
+  - Vittum Park
+  - Old Norwood Park
+  - Avalon Park
+  - Pulaski Park
+  - Ravenswood Manor
+  - Graceland West
+  - Magnolia Glen
+  - Chinatown
+  - Dearborn Park
+  - West Morgan Park
+  - Marynook
+  - Jackson Park Highlands
+  - The Gap
+  - Stony Island Park
+  - Belmont Terrace
+  - River West
+  - Fifth City
+  - The Bush
+  - South East Ravenswood
+  - Cabrini Green
+  - Princeton Park
+  - Kennedy Park
+  - Printers Row
+  - East Pilsen
+  - Pullman
+  - Cottage Grove Heights
+  - Greektown
+  - Ravenswood Gardens
+  - LeClaire Courts
+  - Fuller Park
+  - Pill Hill
+  - South Commons
+  - Gladstone Park
+  - Peterson Park
+  - Ford City
+  - Parkview
+  - Edgewater Glen
+  - Chrysler Village
+  - Beverly Woods
+  - Sleepy Hollow
+  - Forest Glen
+  - Heart of Italy
+  - Golden Gate
+  - Mount Greenwood Heights
+  - Schorsch Forest View
 
 ## TODOS
 
