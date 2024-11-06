@@ -17,6 +17,33 @@
     - Albany Park
     - Avondale
   - south side
+    - Armour Square
+    - Bridgeport
+    - Brighton Park
+    - New City (Back of the Yards)
+    - Englewood
+    - Greater Grand Crossing
+    - Hyde Park
+    - Kenwood
+    - Oakland
+    - South Shore
+    - Washington Park
+    - Woodlawn
+    - Chatham
+    - South Chicago
+    - Auburn Gresham
+    - Calumet Heights
+    - Roseland
+    - Pullman
+    - West Pullman
+    - Riverdale
+  - east side
+    - Hegewisch
+    - East Side
+    - South Shore
+    - Hyde Park
+    - Kenwood
+  - west side
     - Austin
     - East Garfield Park
     - West Garfield Park
@@ -25,10 +52,25 @@
     - Humboldt Park
     - Near West Side
     - West Town
-  - east side
-  - west side
   - northwest side
+    - Jefferson Park
+    - Portage Park
+    - Norwood Park
+    - Dunning
+    - Belmont Cragin
+    - Montclare
+    - Irving Park (Northwestern portion)
+    - Hermosa
   - southwest side
+    - Garfield Ridge
+    - Archer Heights
+    - Brighton Park
+    - Gage Park
+    - West Elsdon
+    - West Lawn
+    - Chicago Lawn (Marquette Park)
+    - Ashburn
+    - Clearing
 
 ## TODOS
 
