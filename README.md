@@ -1,267 +1,129 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/QOtgW9iu)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16431472&assignment_repo_type=AssignmentRepo)
+# 🏘️ Chicago Real Estate Investment Predictor
 
-## notes
+## 🎯 Project Overview
 
-- Regions
-  - north side
-    - Rogers Park
-    - Edgewater
-    - Uptown
-    - Lakeview
-    - Lincoln Park
-    - North Center
-    - Lincoln Square
-    - West Ridge
-    - Irving Park
-    - Albany Park
-    - Avondale
-  - south side
-    - Armour Square
-    - Bridgeport
-    - Brighton Park
-    - New City (Back of the Yards)
-    - Englewood
-    - Greater Grand Crossing
-    - Hyde Park
-    - Kenwood
-    - Oakland
-    - South Shore
-    - Washington Park
-    - Woodlawn
-    - Chatham
-    - South Chicago
-    - Auburn Gresham
-    - Calumet Heights
-    - Roseland
-    - Pullman
-    - West Pullman
-    - Riverdale
-  - east side
-    - Hegewisch
-    - East Side
-    - South Shore
-    - Hyde Park
-    - Kenwood
-  - west side
-    - Austin
-    - East Garfield Park
-    - West Garfield Park
-    - North Lawndale
-    - South Lawndale (Little Village)
-    - Humboldt Park
-    - Near West Side
-    - West Town
-  - northwest side
-    - Jefferson Park
-    - Portage Park
-    - Norwood Park
-    - Dunning
-    - Belmont Cragin
-    - Montclare
-    - Irving Park (Northwestern portion)
-    - Hermosa
-  - southwest side
-    - Garfield Ridge
-    - Archer Heights
-    - Brighton Park
-    - Gage Park
-    - West Elsdon
-    - West Lawn
-    - Chicago Lawn (Marquette Park)
-    - Ashburn
-    - Clearing
-- all the neighbourhood from the dataframe 
-  - Lake View
-  - West Ridge
-  - Little Village
-  - Logan Square
-  - Lincoln Park
-  - South Austin
-  - Irving Park
-  - Rogers Park
-  - Uptown
-  - Gresham
-  - Portage Park
-  - South Loop
-  - Brighton Park
-  - Albany Park
-  - Jefferson Park
-  - South Shore
-  - Bridgeport
-  - Edgewater
-  - Cragin
-  - Humboldt Park
-  - Englewood
-  - Avondale
-  - Lawndale
-  - Gage Park
-  - Back of the Yards
-  - West Lawn
-  - Bronzeville
-  - Marquette Park
-  - Belmont Central
-  - Garfield Ridge
-  - South Chicago
-  - Ravenswood
-  - Hyde Park
-  - West Pullman
-  - West Town
-  - Near North
-  - North Austin
-  - East Side
-  - Streeterville
-  - Hermosa
-  - West Englewood
-  - East Garfield Park
-  - Bucktown
-  - North Center
-  - Clearing
-  - Chatham
-  - West Elsdon
-  - Heart of Chicago
-  - Mount Greenwood
-  - Roseland
-  - Montclare
-  - West Humboldt Park
-  - Archer Heights
-  - Scottsdale
-  - Morgan Park
-  - University Village - Little Italy
-  - O'Hare
-  - Near West Side
-  - Chicago Lawn
-  - Gold Coast
-  - Ashburn
-  - Park Manor
-  - Belmont Heights
-  - West Garfield Park
-  - The Loop
-  - Woodlawn
-  - McKinley Park
-  - Beverly
-  - Galewood
-  - River North
-  - Norwood Park East
-  - Wicker Park
-  - Brainerd
-  - Old Town
-  - Pilsen
-  - Grand Crossing
-  - Edison Park
-  - Roscoe Village
-  - Calumet Heights
-  - Belmont Gardens
-  - Budlong Woods
-  - Washington Park
-  - Burnside
-  - Wrightwood
-  - Longwood Manor
-  - Rosemoor
-  - Noble Square
-  - Fernwood
-  - North Park
-  - East Ukrainian Village
-  - West Loop Gate
-  - Norwood Park West
-  - Sauganash
-  - Dunning
-  - East Chatham
-  - Andersonville
-  - Kenwood
-  - New Eastside
-  - Schorsch Village
-  - West Woodlawn
-  - Hollywood Park
-  - Ukrainian Village
-  - Hegewisch
-  - Arcadia Terrace
-  - Fulton River District
-  - South Deering
-  - Lincoln Square
-  - Washington Heights
-  - Big Oaks
-  - Goose Island
-  - Canaryville
-  - Irving Woods
-  - Union Ridge
-  - Edgebrook
-  - West Chatham
-  - North Kenwood
-  - Homan Square
-  - Kelvin Park
-  - West Chesterfield
-  - Wildwood
-  - Oriole Park
-  - Douglas Park
-  - Jeffery Manor
-  - East Beverly
-  - Tri-Taylor
-  - Bowmanville
-  - Wrigleyville
-  - West Beverly
-  - Oakland
-  - Vittum Park
-  - Old Norwood Park
-  - Avalon Park
-  - Pulaski Park
-  - Ravenswood Manor
-  - Graceland West
-  - Magnolia Glen
-  - Chinatown
-  - Dearborn Park
-  - West Morgan Park
-  - Marynook
-  - Jackson Park Highlands
-  - The Gap
-  - Stony Island Park
-  - Belmont Terrace
-  - River West
-  - Fifth City
-  - The Bush
-  - South East Ravenswood
-  - Cabrini Green
-  - Princeton Park
-  - Kennedy Park
-  - Printers Row
-  - East Pilsen
-  - Pullman
-  - Cottage Grove Heights
-  - Greektown
-  - Ravenswood Gardens
-  - LeClaire Courts
-  - Fuller Park
-  - Pill Hill
-  - South Commons
-  - Gladstone Park
-  - Peterson Park
-  - Ford City
-  - Parkview
-  - Edgewater Glen
-  - Chrysler Village
-  - Beverly Woods
-  - Sleepy Hollow
-  - Forest Glen
-  - Heart of Italy
-  - Golden Gate
-  - Mount Greenwood Heights
-  - Schorsch Forest View
+A machine learning-powered analysis of Chicago's real estate market using Zillow Home Value Index (ZHVI) data to predict optimal investment opportunities across different neighborhoods.
 
-## TODOS
+## 👥 Authors
 
-- create visualization for each chicago regions
-  - one visualization all region zhvi (1)
-  - visualiaxtion for what negibourhood is contributing the most for each region (6)
-  - visualization the population of all regions (1)
-  - visualization for crime index for all regions (1)
-- visulaization count 9
+- [Umar Khan](https://www.linkedin.com/in/umarkhan394/) 👨‍💻
+- Bilal Naseer
+- Danny
+- Adam
+- Abdullah
 
-## questions
+## 📊 Data Analysis Components
 
-- what neighbourhood would be the best investment (ML model)
-  - based on population trends, crime, value (zhvi)
-- what 
+### 🏠 Zillow Home Value Index (ZHVI) Analysis
 
-## next steps
+- Typical home values (35th to 65th percentile range)
+- Historical trends from 2000-01 to 2024-09
+- Regional market comparisons
+- Future value predictions using ML models
 
-- group neighbourhood based on region for zhvi, population, crime
+### 📈 Key Features
+
+- **Region-based Analysis**: Detailed breakdown of Chicago neighborhoods
+- **ML Predictions**: Future home value forecasting
+- **Population Trends**: ZIP code demographic analysis
+- **Investment Scoring**: Area-specific investment potential calculation
+
+## 🔍 Data Structure
+
+### Zillow Dataset Columns
+
+- RegionID
+- SizeRank
+- RegionName
+- RegionType
+- StateName
+- State
+- City
+- Metro
+- CountyName
+- Monthly ZHVI values (2000-2024)
+
+## 🧮 Machine Learning Analysis
+
+### Model Insights
+
+- **City-wide Predictions**: Stable median home values projected across Chicago
+- **East Side Growth**: Significant predicted value increase in East Side neighborhoods
+- **Investment Opportunity**: East Side outperforming baseline predictions
+
+### 🔧 Data Processing
+
+1. Data Cleaning Steps:
+   - Transposition of ZIP Code data
+   - Removal of non-total estimates
+   - Column renaming for uniqueness
+   - Data type conversions
+   - Dataframe consolidation
+
+### 📊 Key Findings
+
+- Correlation between education levels and ZHVI
+- Income-property value relationships
+- Demographic clustering patterns
+
+## 🛠️ Tech Stack
+
+- Python 3.x
+- Jupyter Notebooks
+- Pandas & NumPy
+- Scikit-learn
+- Matplotlib/Seaborn
+
+## 📁 Repository Structure
+
+```
+├── Zillow/
+│   ├── Chicago_Neighborhoods_Zillow.csv   # Main ZHVI dataset
+│   ├── Chicago_ZIP_Populations_*.csv      # Population data
+│   ├── Zillow.ipynb                      # Main analysis notebook
+│   └── Data/                             # Historical census data
+└── Chicago/
+    └── Chicago_Neighborhoods.txt         # Neighborhood definitions
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+```bash
+pip install -r requirements.txt
+```
+
+### 📓 Jupyter Notebook
+
+Open `Zillow.html` to view the complete analysis and ML predictions.
+
+## 📈 Visualizations
+
+### Population and Market Analysis
+
+![Population Density Analysis](visual-1.png)
+_Analysis of population density distribution across Chicago ZIP codes_
+
+### Regional ZHVI Trends
+
+![ZHVI Trends Analysis](visual-2.png)
+_Historical ZHVI trends across Chicago neighborhoods_
+
+### East Side Market Analysis
+
+![East Side Predictions](visual-3.png)
+_Predicted home value trends for East Side region_
+
+### Chicago Market Forecast
+
+![Chicago Market Predictions](visual-4.png)
+_Machine learning predictions for Chicago median home values_
+
+## 📝 License
+
+MIT License
+
+## 📮 Contact
+
+For questions about this analysis, please reach out to any of the contributors.
